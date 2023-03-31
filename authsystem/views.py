@@ -9,7 +9,7 @@ from django.core.mail import send_mail
 from myproject import settings
 from django.contrib.auth.decorators import login_required
 import base64
-# import qrcode 
+import qrcode 
 from django.contrib.auth.forms import PasswordResetForm
 from django.contrib.auth.views import PasswordResetView
 from django.urls import reverse_lazy
